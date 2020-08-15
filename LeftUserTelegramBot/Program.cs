@@ -20,8 +20,7 @@ namespace LeftUserTelegramBot
             var botWorker = new BotWorker(token);
             botWorker.StartBot();
 
-            Console.ReadKey();
-            //Thread.Sleep(Timeout.Infinite);
+            Thread.Sleep(Timeout.Infinite);
         }
     }
 }
